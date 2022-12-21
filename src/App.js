@@ -224,6 +224,7 @@ const App = () => {
         {/* メッセージボックスを実装*/}
         {currentAccount && (
           <textarea
+            className="text-area"
             name="messageArea"
             placeholder="メッセージはこちら"
             type="text"
